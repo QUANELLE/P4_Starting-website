@@ -1,8 +1,9 @@
 body {
+    
     margin: 0;
     padding: 0;
     background: #FFF;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -31,6 +32,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
+    
     padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -655,6 +657,7 @@ a {
 }
 
 .container {
+  
     max-width: 1000px;
 }
 
