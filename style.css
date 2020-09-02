@@ -125,7 +125,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+/* .d-bloc a , */
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -680,7 +680,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -741,7 +741,15 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+.text-color,.icon-md {
+    color: #691717 !important;
+}
+.text-contrast{
+    color: #f3c69b !important;
+}
+#bloc-8 a {
+    color: #000000 !important;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -778,17 +786,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FCE1D5!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color:#791717!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #791717!important;
 }
 
 .ltc-white {
