@@ -899,7 +899,15 @@ h4 {
         padding-right: constant(safe-area-inset-right);
     }
 }
-
+.visually-hidden {
+    position: absolute !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+  }
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
