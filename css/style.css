@@ -317,7 +317,19 @@ a:hover {
     padding-right: 63px;
     font-style: italic;
     font-size: 2rem;
-    color: #575757d7 !important;
+	color: #575757d7 !important;	
+}
+.visually-hidden {
+	position: absolute !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	clip: rect(0, 0, 0, 0) !important;
+}
+address,blockquote footer {
+	color: #484848 !important;
 }
 @media (min-width: 768px) {
 	.site-navigation {
@@ -610,7 +622,7 @@ p {
 }
 .social {
 	max-width: 400px;
-	margin: auto auto auto auto;
+	margin: 20px auto auto auto;
 }
 h2 {
 	font-size: 22px;
@@ -720,6 +732,11 @@ ul {
 	list-style: none;
 	padding-left: 0;
 }
+.social{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 @media (max-width: 1024px) {
 	.bloc {
 		padding-left: 20px;
@@ -779,15 +796,7 @@ ul {
 		padding-right: constant(safe-area-inset-right);
 	}
 }
-.visually-hidden {
-	position: absolute !important;
-	border: 0 !important;
-	height: 1px !important;
-	width: 1px !important;
-	padding: 0 !important;
-	overflow: hidden !important;
-	clip: rect(0, 0, 0, 0) !important;
-}
+
 @media (max-width: 767px) {
 	.page-container {
 		overflow-x: hidden;
