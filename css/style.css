@@ -306,6 +306,19 @@ a:hover {
 	position: relative;
 	z-index: 2;
 }
+.text1 {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 2.4rem;
+    color: #2e2a2ad7 !important;
+}
+.italic {
+    padding-left: 63px;
+    padding-right: 63px;
+    font-style: italic;
+    font-size: 2rem;
+    color: #575757d7 !important;
+}
 @media (min-width: 768px) {
 	.site-navigation {
 		position: absolute;
